@@ -11,10 +11,15 @@ export default class About extends Component {
                 <div className="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
                 <div className="col-md-12">
                     <div className="about-desc">
-                    <span className="heading-meta">About Us</span>
-                    <h2 className="colorlib-heading">Who Am I?</h2>
-                    <p>I am a computer grad student from DAIICT-Gandhinagar with ICT as my major.I love exploring new technologies and often amazed by the progress we as a human species have mad so far in the recent years (apart from the headphone-jack part!!)</p>
-                    <p>I have started reflecting my ideas and thougths through the medium of words recently so spelling and grammer mistaks are very often.You can write me back if you spot any and don't want to live anymore :P </p>
+                    <span className="heading-meta">Sobre mim</span>
+                    <h2 className="colorlib-heading">Quem sou eu?</h2>
+                    <p>Sou graduado em Sitemas para Internet(UTFPR, 2018). Amo programar seguindo boas práticas. Gosto muito de um café (sem leite e açucar).</p>
+                    <p>Meu esporte predileto é a natação e meus hobbies são jogos(PC) e séries.</p>
+                    <p>Valorizo muito a contribuição, e acredito que uma boa equipe é formada por um time unido.</p>
+                    <p>Tenho facilidade em estudar novos assuntos.
+                        A principal ferramenta que tenho experiência é com o google. 
+                        Pode parecer estranho, mas na minha opinião quem sabe fazer uma boa pesquisa economiza tempo. </p>
+                        <p>Hoje moro em região metropolitana de Curitiba-PR e tenho preferência por oportunidades remotas.</p>
                     </div>
                 </div>
                 </div>
@@ -26,8 +31,8 @@ export default class About extends Component {
         <div className="colorlib-narrow-content">
             <div className="row">
             <div className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-                <span className="heading-meta">What I do?</span>
-                <h2 className="colorlib-heading">Here are some of my expertise</h2>
+                <span className="heading-meta">Oque eu faço?</span>
+                <h2 className="colorlib-heading">Principais habilidades técnicas</h2>
             </div>
             </div>
             <div className="row row-pt-md">
@@ -37,8 +42,9 @@ export default class About extends Component {
                     <i className="icon-bulb" />
                 </span>
                 <div className="desc">
-                    <h3>Web Development </h3>
-                    <p>I have experience building websites and chrome extentions using JavaScript,React,HTML,CSS</p>
+                    <h3>Desenvolvimento back-end </h3>
+                    <p>Já construi API'S com: Java, PHP e C#</p>
+                    <p>Frameworks/bibliotecas: Spring, JSF, Laravel</p>
                 </div>
                 </div>
             </div>
@@ -48,8 +54,9 @@ export default class About extends Component {
                     <i className="icon-phone3" />
                 </span>
                 <div className="desc">
-                    <h3>Data Structures & Algorithms</h3>
-                    <p>As coming from the CS background, I have good grasp over fundamental concepts of DSA</p>
+                    <h3>Desenvolvimento front-end</h3>
+                    <p>Criei telas com tecnologias fundamentais como: HTML, CSS, Javascript, Bootstrap</p>
+                    <p>Frameworks/bibliotecas: React, React Native e Angular JS</p>
                 </div>
                 </div>
             </div>
@@ -59,20 +66,25 @@ export default class About extends Component {
                     <i className="icon-data" />
                 </span>
                 <div className="desc">
-                    <h3>Dev Ops</h3>
-                    <p>I am pursuing my internship with DevOps team at Juniper and working with tools like Jenkins, Docker, K8s</p>
+                    <h3>Banco de Dados</h3>
+                    <p>Trabalhei com relacionais: Mysql, Oracle, SQL Server, Postgres</p>
+                    <p>Frameworks: Hibernate</p>
                 </div>
                 </div>
             </div>
-            {/*
+            
+            </div>
+
+            <div className="row row-pt-md">
             <div className="col-md-4 text-center animate-box">
                 <div className="services color-2">
                 <span className="icon">
                     <i className="icon-data" />
                 </span>
                 <div className="desc">
-                    <h3>Dev Ops</h3>
-                    <p>Jenkins , Kubernetes , Docker </p>
+                    <h3>Servidores / Deploy</h3>
+                    <p>Nos projetos em que atuei já usei: Spring boot, Jboss, tomcat.</p>
+                    <p>Já fiz deploy na digital ocean, heroku, webhost e subindo war direto no servidor(linux/windows).</p>
                 </div>
                 </div>
             </div>
@@ -82,8 +94,8 @@ export default class About extends Component {
                     <i className="icon-layers2" />
                 </span>
                 <div className="desc">
-                    <h3>Graphic Design</h3>
-                    <p>My friend knows .. P</p>
+                    <h3>Versionador de código</h3>
+                    <p>Já trabalhei com Git abrindo PR'S e revisando códigos. Tive contato com SVN também.</p>
                 </div>
                 </div>
             </div>
@@ -93,12 +105,12 @@ export default class About extends Component {
                     <i className="icon-phone3" />
                 </span>
                 <div className="desc">
-                    <h3>Digital Marketing</h3>
-                    <p>I use Instagram eight hours a day :) </p>
+                    <h3>Outras ferramentas</h3>
+                    <p>IDES: Intelij, Eclipse, VS Code, STS, PHP Storm </p>
+                    <p>Junit/Mockito, Docker, Jira/Confluence, Trello, Websphere, API Rest e SOAP. </p>
                 </div>
                 </div>
             </div>
-            */}
             </div>
         </div>
         </section>
